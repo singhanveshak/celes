@@ -1,4 +1,4 @@
-A website where I can document cool new stuff I learn and hopefully help someone
+A website where I can document cool 
 
 [A link](page1.html)
 
