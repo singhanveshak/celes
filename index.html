@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Split Options</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            justify-content: center;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #option1, #option2 {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        #option1 {
+            background: #3498db;
+        }
+
+        #option2 {
+            background: #e74c3c;
+        }
+
+        #option1:hover, #option2:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div id="option1" onclick="location.href='./khyati/index.html'">
+        <h2>Khyati's Website</h2>
+    </div>
+    <div id="option2" onclick="location.href='./prakhyat/index.html'">
+        <h2>Prakhyat's Website</h2>
+        <p>Go to Page 2</p>
+    </div>
+</body>
+</html>
+
