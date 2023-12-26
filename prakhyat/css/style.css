@@ -495,7 +495,6 @@ img {
 	background-color: #3c0f38;
 	color: #ffffff;
 	display: block;
-	float: right;
 	font-family: Arial;
 	font-size: 14px;
 	font-weight: normal;
@@ -512,7 +511,7 @@ img {
 }
 /*----------------------------------------body-styles---------------------------------------*/
 #body.about .header {
-	background: url(../images/bg-about.jpg) no-repeat center top #000000;
+	background: url() no-repeat center top #000000;
 	margin: 0;
 	min-height: 455px;
 	padding: 0;
@@ -636,6 +635,7 @@ img {
 	width: auto;
 }
 #body.about .footer {
+	color
 	background-color: #000000;
 	margin: 0;
 	min-height: 366px;
@@ -1311,14 +1311,14 @@ img {
 }
 #footer .connect div h1 {
 	color: #FFFFFF;
-	float: left;
+	float: center;
 	font-family: audiowide-regular-webfont;
-	font-size: 23px;
+	font-size: 10px;
 	font-weight: normal;
-	line-height: 23px;
+	line-height: 17px;
 	margin: 0;
 	padding: 8px 25px 0 0;
-	text-align: right;
+	text-align: center;
 	text-transform: uppercase;
 	width: 525px;
 }
