@@ -384,3 +384,61 @@ footer .footer-socials a:hover {
 footer .footer-bottom {
 	padding: 10px 0 40px;
 }
+
+/* COMMENTS */
+#comments-section {
+    max-width: 600px;
+    margin: auto;
+}
+
+#comments-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment-date {
+    color: #888;
+    font-size: 0.8em;
+}
+
+#comment-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#comment-input:focus {
+    outline: none;
+    border-color: #66afe9;
+}
+
+#comment-input::placeholder {
+    color: #999;
+}
+
+#add-comment-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-comment-btn:hover {
+    background-color: #45a049;
+}
