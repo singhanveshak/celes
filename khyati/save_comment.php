@@ -1,5 +1,7 @@
 <?php
-
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: POST, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type");
 // Retrieve the JSON data from the request
 $data = file_get_contents("php://input");
 $comment = json_decode($data);
